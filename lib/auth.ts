@@ -25,8 +25,6 @@ export const authOptions: NextAuthOptions = {
         session.user.name = token.name
         session.user.email = token.email
         session.user.image = token.picture
-        session.user.level = token.level as string
-        session.user.streak = token.streak as string
       }
 
       return session
