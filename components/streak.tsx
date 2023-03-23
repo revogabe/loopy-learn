@@ -2,16 +2,16 @@
 import { FireSimple } from "@phosphor-icons/react";
 import { User } from "next-auth"
 
-interface UserAccountNavProps extends React.HTMLAttributes<HTMLDivElement> {
-  user: Pick<User, "streak"  >
+type StreakCountProps = {
+  streak: string | number
 }
 
-export function StreakCount({ user }: UserAccountNavProps) {
-
+export function StreakCount({ streak }: StreakCountProps) {
   return (
-    <div className="flex cursor-pointer items-center justify-center gap-2 rounded-md border border-primarycolor/25 bg-black/20 px-4 py-2">
-      <FireSimple weight="fill" className="text-primarycolor" />
-      <p>{user.streak}</p>
+    <div className={`flex cursor-pointer items-center justify-center gap-2 rounded-md border  bg-black/20 px-4 py-2 
+    ${streak === 0 ? "border-primarycolor/25 text-gray-600/50" : "border-primarycolor text-textprimary"}`}>
+      <FireSimple weight="fill" className={streak === 0 ? "text-gray-600/50" : "text-primarycolor"} />
+      <p>{streak}</p>
     </div>
   )
 }

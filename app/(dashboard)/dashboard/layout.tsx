@@ -19,6 +19,7 @@ export default async function DashboardLayout({
   children,
 }: DashboardLayoutProps) {
   const user = await getCurrentUser()
+  const currentUserStreak = user?.streak
 
   if (!user) {
     return notFound()
@@ -26,14 +27,12 @@ export default async function DashboardLayout({
 
   return (
     <div className="mx-auto flex flex-col space-y-6">
-      <header className="container sticky top-0 z-40 bg-transparent">
+      <header className="container z-40 bg-transparent">
         <div className="flex h-16 items-center justify-between border-0 pt-10 pb-12">
           <Link href="/">
             <Image src={Logotype} alt="" />
           </Link>
-          <StreakCount user={{
-              streak: user.streak
-            }}/>
+          <StreakCount streak={user?.streak}/>
           <UserAccountNav
             user={{
               name: user.name,
