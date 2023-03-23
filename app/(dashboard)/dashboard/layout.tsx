@@ -30,7 +30,6 @@ export default async function DashboardLayout({
               name: user.name,
               image: user.image,
               email: user.email,
-              streak: user.streak
             }}
           />
         </div>
