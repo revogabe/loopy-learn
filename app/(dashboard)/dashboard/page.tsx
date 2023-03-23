@@ -18,7 +18,9 @@ export default async function DashboardPage() {
     redirect(authOptions?.pages?.signIn || "/login")
   }
 
-  const apiLevel = await fetch('https://loopy-levels-default-rtdb.firebaseio.com/data.json?auth=ZqlgTKhDzFm0VxUqx4eYXjUCxrjeh5N4LKu9BaAz')
+  const authGoogleDB = process.env.GOOGLE_API_LEVELS
+
+  const apiLevel = await fetch(`https://loopy-levels-default-rtdb.firebaseio.com/data.json?auth=${authGoogleDB}`)
     .then(res => res.json())
     .then(data => {
       return data
