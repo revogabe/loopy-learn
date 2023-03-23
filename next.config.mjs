@@ -1,5 +1,3 @@
-import { withContentlayer } from "next-contentlayer"
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -12,4 +10,5 @@ const nextConfig = {
   },
 }
 
-export default withContentlayer(nextConfig)
+module.exports = nextConfig
+
