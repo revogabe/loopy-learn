@@ -57,7 +57,7 @@ export function DragContainer() {
         </Link>
       </div>
       {/* Images */}
-      <motion.div className="absolute z-0 flex h-96 w-full justify-between overflow-hidden border-t border-b border-b-primarycolor border-t-primarycolor">
+      <motion.div className="absolute z-0 flex h-96 w-full justify-between overflow-hidden border-y border-y-primarycolor">
         <motion.div>
           <motion.div
             drag
