@@ -12,19 +12,14 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { UserAvatar } from "@/components/user-avatar"
-import { FireSimple } from "@phosphor-icons/react"
 
 interface UserAccountNavProps extends React.HTMLAttributes<HTMLDivElement> {
-  user: Pick<User, "name" | "image" | "email" >
+  user: Pick<User, "name" | "image" | "email"  >
 }
 export function UserAccountNav({ user }: UserAccountNavProps) {
   return (
     <div className="flex items-center justify-end gap-8">
     <DropdownMenu>
-      <div className="flex cursor-pointer items-center justify-center gap-2 rounded-md border border-primarycolor/25 bg-black/20 px-4 py-2">
-        <FireSimple weight="fill" className="text-primarycolor" />
-        <p>1</p>
-      </div>
       <DropdownMenuTrigger>
         <UserAvatar
           user={{ name: user.name || null, image: user.image || null }}

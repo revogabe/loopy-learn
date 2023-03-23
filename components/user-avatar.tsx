@@ -3,7 +3,6 @@ import { AvatarProps } from "@radix-ui/react-avatar"
 
 import { Icons } from "@/components/icons"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { FireSimple } from "@phosphor-icons/react"
 
 interface UserAvatarProps extends AvatarProps {
   user: Pick<User, "image" | "name" >

@@ -6,6 +6,7 @@ import { absoluteUrl, cn } from "@/lib/utils"
 import { Analytics } from "@/components/analytics"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { Toaster } from "@/components/ui/toaster"
+import { SessionProvider } from "next-auth/react"
 
 const fontSans = FontSans({
   subsets: ["latin"],

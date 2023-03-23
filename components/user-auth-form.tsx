@@ -1,16 +1,16 @@
 "use client"
 
-import * as React from "react"
 import { signIn } from "next-auth/react"
 
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
+import { useState } from "react"
 
 interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> {}
 
 export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
-  const [isLoading, setIsLoading] = React.useState<boolean>(false)
-  const [isGitHubLoading, setIsGitHubLoading] = React.useState<boolean>(false)
+  const [isLoading, setIsLoading] = useState<boolean>(false)
+  const [isGitHubLoading, setIsGitHubLoading] = useState<boolean>(false)
 
   return (
     <div className={cn("flex h-12 w-full", className)} {...props}>

@@ -6,10 +6,10 @@ import { useSelectedLayoutSegment } from "next/navigation"
 
 import { MainNavItem } from "types"
 import { cn } from "@/lib/utils"
-import { Icons } from "@/components/icons"
 import { MobileNav } from "@/components/mobile-nav"
 
 import Logotype from '@/assets/logotypes/logo-dark.svg'
+import IconLogo from "@/assets/logotypes/logo-dark-icon.svg"
 import Image from "next/image"
 
 interface MainNavProps {
@@ -44,11 +44,11 @@ export function MainNav({ items, children }: MainNavProps) {
         </nav>
       ) : null}
       <button
-        className="flex items-center space-x-2 md:hidden"
+        className="flex items-center gap-3 md:hidden"
         onClick={() => setShowMobileMenu(!showMobileMenu)}
       >
-        {showMobileMenu ? <Icons.close /> : <Icons.logo />}
-        <span className="font-bold">Menu</span>
+        <Image src={IconLogo} alt='' width={28} />
+        <span className="text-2xl font-bold">Menu</span>
       </button>
       {showMobileMenu && items && (
         <MobileNav items={items}>{children}</MobileNav>

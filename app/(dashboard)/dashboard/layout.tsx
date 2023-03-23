@@ -2,9 +2,13 @@ import { notFound } from "next/navigation"
 
 import { dashboardConfig } from "@/config/dashboard"
 import { getCurrentUser } from "@/lib/session"
-import { MainNav } from "@/components/main-nav"
 import { DashboardNav } from "@/components/nav"
 import { UserAccountNav } from "@/components/user-account-nav"
+
+import Logotype from "@/assets/logotypes/logo-dark.svg"
+import Image from "next/image"
+import Link from "next/link"
+import { StreakCount } from "@/components/streak"
 
 
 interface DashboardLayoutProps {
@@ -24,7 +28,12 @@ export default async function DashboardLayout({
     <div className="mx-auto flex flex-col space-y-6">
       <header className="container sticky top-0 z-40 bg-transparent">
         <div className="flex h-16 items-center justify-between border-0 pt-10 pb-12">
-          <MainNav items={dashboardConfig.mainNav} />
+          <Link href="/">
+            <Image src={Logotype} alt="" />
+          </Link>
+          <StreakCount user={{
+              streak: user.streak
+            }}/>
           <UserAccountNav
             user={{
               name: user.name,

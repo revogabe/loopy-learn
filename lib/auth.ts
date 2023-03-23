@@ -15,6 +15,16 @@ export const authOptions: NextAuthOptions = {
     GitHubProvider({
       clientId: process.env.GITHUB_CLIENT_ID || "",
       clientSecret: process.env.GITHUB_CLIENT_SECRET || "",
+      profile(profile) {
+        return {
+          id: profile.id,
+          name: profile.name,
+          email: profile.email,
+          image: profile.avatar_url,
+          streak: profile.streak,
+          level: profile.level,
+        }
+      }
     }),
 
   ],
@@ -25,6 +35,8 @@ export const authOptions: NextAuthOptions = {
         session.user.name = token.name
         session.user.email = token.email
         session.user.image = token.picture
+        session.user.level = token.level
+        session.user.streak = token.streak
       }
 
       return session

@@ -48,7 +48,7 @@ Card.Description = function CardDescription({
   className,
   ...props
 }: CardDescriptionProps) {
-  return <p className={cn("text-sm text-gray-300", className)} {...props} />
+  return <p className={cn("text-sm text-primarycolor", className)} {...props} />
 }
 
 Card.Skeleton = function CardSeleton() {
@@ -60,7 +60,7 @@ Card.Skeleton = function CardSeleton() {
       </Card.Header>
       <Card.Content className="h-10" />
       <Card.Footer>
-        <Skeleton className="h-8 w-[120px] bg-slate-200" />
+        <Skeleton className="h-8 w-[120px] bg-black" />
       </Card.Footer>
     </Card>
   )
