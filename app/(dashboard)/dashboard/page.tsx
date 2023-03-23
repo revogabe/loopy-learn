@@ -24,7 +24,7 @@ export default async function DashboardPage() {
       </DashboardHeader>
       <div className="flex items-center gap-3">
         <h1>Current Level:</h1>
-        <p className="rounded-full border border-primarycolor px-4 py-1 text-lg text-primarycolor">{user.level}</p>
+        <p className="rounded-full border border-primarycolor px-4 py-1 text-lg text-primarycolor">1</p>
       </div>
     </DashboardShell>
   )
