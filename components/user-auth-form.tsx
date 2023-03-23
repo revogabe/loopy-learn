@@ -2,7 +2,6 @@
 
 import * as React from "react"
 import { signIn } from "next-auth/react"
-import { User } from "@prisma/client"
 
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
