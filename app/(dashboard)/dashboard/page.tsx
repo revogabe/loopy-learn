@@ -56,10 +56,10 @@ export default async function DashboardPage() {
                 }
               >
                 <div
-                  className={`flex cursor-pointer  flex-col items-start gap-5 rounded-md border border-primarycolor bg-bgheader p-6 shadow-xl shadow-black/50 transition-all duration-300 ease-out hover:-translate-y-2 hover:brightness-150 ${
+                  className={`flex  flex-col items-start gap-5 rounded-md border border-primarycolor bg-bgheader p-6 shadow-xl shadow-black/50 transition-all duration-300 ease-out   ${
                     user.level <= moduleCard[key].id
                       ? 'cursor-not-allowed opacity-20 saturate-0 hover:transform-none hover:brightness-95 hover:transition-none'
-                      : ''
+                      : 'cursor-pointer hover:-translate-y-2 hover:brightness-150'
                   }`}
                 >
                   <p className="rounded-md border border-primarycolor px-4 py-1 text-lg text-primarycolor">
