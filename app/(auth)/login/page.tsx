@@ -1,17 +1,17 @@
-import { Metadata } from "next"
-import Link from "next/link"
+import { Metadata } from 'next'
+import Link from 'next/link'
 
-import { cn } from "@/lib/utils"
-import { Icons } from "@/components/icons"
-import { buttonVariants } from "@/components/ui/button"
-import { UserAuthForm } from "@/components/user-auth-form"
+import { cn } from '@/lib/utils'
+import { Icons } from '@/components/icons'
+import { buttonVariants } from '@/components/ui/button'
+import { UserAuthForm } from '@/components/user-auth-form'
 
-import Image from "next/image"
-import IconLogo from "@/assets/logotypes/logo-dark-icon.svg"
+import Image from 'next/image'
+import IconLogo from '@/assets/logotypes/logo-dark-icon.svg'
 
 export const metadata: Metadata = {
-  title: "Login",
-  description: "Login to your account",
+  title: 'Login',
+  description: 'Login to your account',
 }
 
 export default function LoginPage() {
@@ -20,8 +20,8 @@ export default function LoginPage() {
       <Link
         href="/"
         className={cn(
-          buttonVariants({ variant: "ghost" }),
-          "absolute top-4 left-4 md:top-8 md:left-8"
+          buttonVariants({ variant: 'ghost' }),
+          'absolute top-4 left-4 md:top-8 md:left-8',
         )}
       >
         <>
@@ -31,7 +31,12 @@ export default function LoginPage() {
       </Link>
       <div className="mx-auto flex w-full flex-col justify-center space-y-6 rounded-lg border border-primarycolor p-12 shadow-xl shadow-black/50 sm:max-w-lg">
         <div className="flex flex-col space-y-2 text-center">
-          <Image src={IconLogo} alt="" className="mb-4 self-center" width={42} />
+          <Image
+            src={IconLogo}
+            alt=""
+            className="mb-4 self-center"
+            width={42}
+          />
           <h1 className="text-2xl font-semibold tracking-tight">
             Welcome the <span className="text-primarycolor">Loopy</span> App
           </h1>

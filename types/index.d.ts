@@ -1,7 +1,7 @@
-import { User } from "@prisma/client"
-import type { Icon } from "lucide-react"
+/* eslint-disable no-undef */
+import { User } from '@prisma/client'
 
-import { Icons } from "@/components/icons"
+import { Icons } from '@/components/icons'
 
 export type NavItem = {
   title: string
@@ -59,7 +59,7 @@ export type SubscriptionPlan = {
 }
 
 export type UserSubscriptionPlan = SubscriptionPlan &
-  Pick<User, "stripeCustomerId" | "stripeSubscriptionId"> & {
+  Pick<User, 'stripeCustomerId' | 'stripeSubscriptionId'> & {
     stripeCurrentPeriodEnd: number
     isPro: boolean
   }

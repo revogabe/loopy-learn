@@ -5,11 +5,8 @@ import bgDetail from '@/assets/bg-detail.svg'
 import { Features } from './components/Features'
 import { DragContainer } from './components/DragContainer'
 import { Prices } from './components/Prices'
-import { getCurrentUser } from '@/lib/session'
 
 export default async function IndexPage() {
-  const user = await getCurrentUser()
-
   return (
     <main id="mainScreen">
       <Image src={bgDetail} alt="" className="absolute top-0 right-0 -z-10" />

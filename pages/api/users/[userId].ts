@@ -1,21 +1,21 @@
-import { NextApiRequest, NextApiResponse } from "next"
-import { getServerSession } from "next-auth/next"
-import * as z from "zod"
+import { NextApiRequest, NextApiResponse } from 'next'
+import { getServerSession } from 'next-auth/next'
+import * as z from 'zod'
 
-import { withCurrentUser } from "@/lib/api-middlewares/with-current-user"
-import { withMethods } from "@/lib/api-middlewares/with-methods"
-import { authOptions } from "@/lib/auth"
-import { db } from "@/lib/db"
-import { userNameSchema } from "@/lib/validations/user"
+import { withCurrentUser } from '@/lib/api-middlewares/with-current-user'
+import { withMethods } from '@/lib/api-middlewares/with-methods'
+import { authOptions } from '@/lib/auth'
+import { db } from '@/lib/db'
+import { userNameSchema } from '@/lib/validations/user'
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
-  if (req.method === "PATCH") {
+  if (req.method === 'PATCH') {
     try {
       const session = await getServerSession(req, res, authOptions)
       const user = session?.user
 
       if (!user) {
-        throw new Error("User not found.")
+        throw new Error('User not found.')
       }
 
       const body = req.body
@@ -44,4 +44,4 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
   }
 }
 
-export default withMethods(["PATCH"], withCurrentUser(handler))
+export default withMethods(['PATCH'], withCurrentUser(handler))

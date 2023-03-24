@@ -10,7 +10,18 @@ export const metadata = {
   title: 'Dashboard',
 }
 
-export default async function DashboardPage() {
+interface ParamsProps {
+  params: {
+    id: string
+  }
+
+  level: string
+  alternatives: string
+  question: string
+  result: string
+}
+
+export default async function DashboardPage({ params }: ParamsProps) {
   const user = await getCurrentUser()
   const currentUserLevel = user?.level
 
@@ -20,21 +31,18 @@ export default async function DashboardPage() {
 
   const authGoogleDB = process.env.GOOGLE_API_LEVELS
 
-  const moduleCard = await fetch(
-    `https://loopy-levels-default-rtdb.firebaseio.com/data/module.json?auth=${authGoogleDB}`,
+  const response = await fetch(
+    `https://loopy-levels-default-rtdb.firebaseio.com/data/module/${params.id}/levels.json?auth=${authGoogleDB}`,
     {
       cache: 'no-cache',
     },
   )
-    .then((res) => res.json())
-    .then((data) => {
-      return data
-    })
+  const levelData = await response.json()
 
   return (
     <DashboardShell>
       <DashboardHeader
-        heading="Modules"
+        heading="Levels"
         text="Let's get started! You can create a new level or edit an existing one."
       ></DashboardHeader>
       <div className="flex items-center gap-3">
@@ -46,18 +54,16 @@ export default async function DashboardPage() {
       <div>
         <h1 className="mb-8 text-2xl font-bold">Modulos</h1>
         <div className="grid grid-cols-2 gap-4">
-          {Object.keys(moduleCard).map((key) => {
+          {levelData.map((item: ParamsProps) => {
             return (
-              <Link href={`/dashboard/module/${moduleCard[key].id}`}>
+              <Link href={`/levels/${params.id}/${item.level}`}>
                 <div
                   className={`flex cursor-pointer  flex-col items-start gap-5 rounded-md border border-primarycolor bg-bgheader p-6 shadow-xl shadow-black/50 transition-all duration-300 ease-out hover:-translate-y-2 hover:brightness-150`}
                 >
                   <p className="rounded-md border border-primarycolor px-4 py-1 text-lg text-primarycolor">
-                    {moduleCard[key].name}
+                    {item.level}
                   </p>
-                  <p className="text-lg text-textprimary/75">
-                    {moduleCard[key].description}
-                  </p>
+                  <p className="text-lg text-textprimary/75">{item.question}</p>
                 </div>
               </Link>
             )

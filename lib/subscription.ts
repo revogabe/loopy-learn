@@ -1,11 +1,11 @@
 // @ts-nocheck
 // TODO: Fix this when we turn strict mode on.
-import { UserSubscriptionPlan } from "types"
-import { freePlan, proPlan } from "@/config/subscriptions"
-import { db } from "@/lib/db"
+import { UserSubscriptionPlan } from 'types'
+import { freePlan, proPlan } from '@/config/subscriptions'
+import { db } from '@/lib/db'
 
 export async function getUserSubscriptionPlan(
-  userId: string
+  userId: string,
 ): Promise<UserSubscriptionPlan> {
   const user = await db.user.findFirst({
     where: {
@@ -20,7 +20,7 @@ export async function getUserSubscriptionPlan(
   })
 
   if (!user) {
-    throw new Error("User not found")
+    throw new Error('User not found')
   }
 
   // Check if user is on a pro plan.

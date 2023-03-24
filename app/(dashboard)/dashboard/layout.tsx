@@ -1,25 +1,24 @@
-import { notFound } from "next/navigation"
+import { notFound } from 'next/navigation'
 
-import { dashboardConfig } from "@/config/dashboard"
-import { getCurrentUser } from "@/lib/session"
-import { DashboardNav } from "@/components/nav"
-import { UserAccountNav } from "@/components/user-account-nav"
+import { dashboardConfig } from '@/config/dashboard'
+import { getCurrentUser } from '@/lib/session'
+import { DashboardNav } from '@/components/nav'
+import { UserAccountNav } from '@/components/user-account-nav'
 
-import Logotype from "@/assets/logotypes/logo-dark.svg"
-import Image from "next/image"
-import Link from "next/link"
-import { StreakCount } from "@/components/streak"
-
+import Logotype from '@/assets/logotypes/logo-dark.svg'
+import Image from 'next/image'
+import Link from 'next/link'
+import { StreakCount } from '@/components/streak'
+import { ReactNode } from 'react'
 
 interface DashboardLayoutProps {
-  children?: React.ReactNode
+  children?: ReactNode
 }
 
 export default async function DashboardLayout({
   children,
 }: DashboardLayoutProps) {
   const user = await getCurrentUser()
-  const currentUserStreak = user?.streak
 
   if (!user) {
     return notFound()
@@ -32,7 +31,7 @@ export default async function DashboardLayout({
           <Link href="/">
             <Image src={Logotype} alt="" />
           </Link>
-          <StreakCount streak={user?.streak}/>
+          <StreakCount streak={user?.streak} />
           <UserAccountNav
             user={{
               name: user.name,

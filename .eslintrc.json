@@ -3,10 +3,12 @@
   "root": true,
   "extends": [
     "next/core-web-vitals",
-    "prettier",
-    "plugin:tailwindcss/recommended"
+    "plugin:tailwindcss/recommended",
+    "@rocketseat/eslint-config/react"
   ],
-  "plugins": ["tailwindcss"],
+  "plugins": [
+    "tailwindcss"
+  ],
   "rules": {
     "@next/next/no-html-link-for-pages": "off",
     "react/jsx-key": "off",
@@ -15,7 +17,9 @@
   },
   "settings": {
     "tailwindcss": {
-      "callees": ["cn"]
+      "callees": [
+        "cn"
+      ]
     },
     "next": {
       "rootDir": true

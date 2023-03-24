@@ -1,6 +1,7 @@
 interface DashboardHeaderProps {
   heading: string
   text?: string
+  // eslint-disable-next-line no-undef
   children?: React.ReactNode
 }
 

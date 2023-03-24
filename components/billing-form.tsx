@@ -1,13 +1,13 @@
-"use client"
+'use client'
 
-import * as React from "react"
-import { toast } from "@/hooks/use-toast"
+import * as React from 'react'
+import { toast } from '@/hooks/use-toast'
 
-import { UserSubscriptionPlan } from "types"
-import { cn, formatDate } from "@/lib/utils"
-import { Icons } from "@/components/icons"
-import { buttonVariants } from "@/components/ui/button"
-import { Card } from "@/components/ui/card"
+import { UserSubscriptionPlan } from 'types'
+import { cn, formatDate } from '@/lib/utils'
+import { Icons } from '@/components/icons'
+import { buttonVariants } from '@/components/ui/button'
+import { Card } from '@/components/ui/card'
 
 interface BillingFormProps extends React.HTMLAttributes<HTMLFormElement> {
   subscriptionPlan: UserSubscriptionPlan & {
@@ -27,13 +27,13 @@ export function BillingForm({
     setIsLoading(!isLoading)
 
     // Get a Stripe session URL.
-    const response = await fetch("/api/users/stripe")
+    const response = await fetch('/api/users/stripe')
 
     if (!response?.ok) {
       return toast({
-        title: "Something went wrong.",
-        description: "Please refresh the page and try again.",
-        variant: "destructive",
+        title: 'Something went wrong.',
+        description: 'Please refresh the page and try again.',
+        variant: 'destructive',
       })
     }
 
@@ -52,28 +52,30 @@ export function BillingForm({
         <Card.Header>
           <Card.Title>Loopy Premium</Card.Title>
           <Card.Description>
-            You are currently on the subscription plan{" "}
-            <strong>{subscriptionPlan.name}</strong>{" "}
-            plan.
+            You are currently on the subscription plan{' '}
+            <strong>{subscriptionPlan.name}</strong> plan.
           </Card.Description>
         </Card.Header>
         <Card.Content>{subscriptionPlan.description}</Card.Content>
         <Card.Footer className="flex flex-col items-start space-y-2 md:flex-row md:justify-between md:space-x-0">
           <button
             type="submit"
-            className={cn(buttonVariants(), "bg-textprimary font-bold text-bgprimary hover:bg-bgprimary hover:text-primarycolor")}
+            className={cn(
+              buttonVariants(),
+              'bg-textprimary font-bold text-bgprimary hover:bg-bgprimary hover:text-primarycolor',
+            )}
             disabled={isLoading}
           >
             {isLoading && (
               <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
             )}
-            {subscriptionPlan.isPro ? "Manage Subscription" : "Upgrade to PRO"}
+            {subscriptionPlan.isPro ? 'Manage Subscription' : 'Upgrade to PRO'}
           </button>
           {subscriptionPlan.isPro ? (
             <p className="rounded-full text-xs font-medium">
               {subscriptionPlan.isCanceled
-                ? "Your plan will be canceled on "
-                : "Your plan renews on "}
+                ? 'Your plan will be canceled on '
+                : 'Your plan renews on '}
               {formatDate(subscriptionPlan.stripeCurrentPeriodEnd)}.
             </p>
           ) : null}

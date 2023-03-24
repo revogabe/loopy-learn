@@ -1,6 +1,6 @@
-import { DashboardHeader } from "@/components/header"
-import { DashboardShell } from "@/components/shell"
-import { Card } from "@/components/ui/card"
+import { DashboardHeader } from '@/components/header'
+import { DashboardShell } from '@/components/shell'
+import { Card } from '@/components/ui/card'
 
 export default function DashboardLoading() {
   return (

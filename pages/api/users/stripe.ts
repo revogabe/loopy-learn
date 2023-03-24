@@ -1,24 +1,24 @@
-import { NextApiRequest, NextApiResponse } from "next"
-import { getServerSession } from "next-auth/next"
+import { NextApiRequest, NextApiResponse } from 'next'
+import { getServerSession } from 'next-auth/next'
 
-import { proPlan } from "@/config/subscriptions"
-import { withAuthentication } from "@/lib/api-middlewares/with-authentication"
-import { withMethods } from "@/lib/api-middlewares/with-methods"
-import { authOptions } from "@/lib/auth"
-import { stripe } from "@/lib/stripe"
-import { getUserSubscriptionPlan } from "@/lib/subscription"
-import { absoluteUrl } from "@/lib/utils"
+import { proPlan } from '@/config/subscriptions'
+import { withAuthentication } from '@/lib/api-middlewares/with-authentication'
+import { withMethods } from '@/lib/api-middlewares/with-methods'
+import { authOptions } from '@/lib/auth'
+import { stripe } from '@/lib/stripe'
+import { getUserSubscriptionPlan } from '@/lib/subscription'
+import { absoluteUrl } from '@/lib/utils'
 
-const billingUrl = absoluteUrl("/dashboard/billing")
+const billingUrl = absoluteUrl('/dashboard/billing')
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
-  if (req.method === "GET") {
+  if (req.method === 'GET') {
     try {
       const session = await getServerSession(req, res, authOptions)
       const user = session?.user
 
       if (!user || !user.email) {
-        throw new Error("User not found.")
+        throw new Error('User not found.')
       }
 
       const subscriptionPlan = await getUserSubscriptionPlan(user.id)
@@ -39,9 +39,9 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
       const stripeSession = await stripe.checkout.sessions.create({
         success_url: billingUrl,
         cancel_url: billingUrl,
-        payment_method_types: ["card"],
-        mode: "subscription",
-        billing_address_collection: "auto",
+        payment_method_types: ['card'],
+        mode: 'subscription',
+        billing_address_collection: 'auto',
         customer_email: user.email,
         line_items: [
           {
@@ -61,4 +61,4 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
   }
 }
 
-export default withMethods(["GET"], withAuthentication(handler))
+export default withMethods(['GET'], withAuthentication(handler))
