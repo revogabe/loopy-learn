@@ -1,10 +1,10 @@
 {
-  "name": "taxonomy",
+  "name": "loopy",
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "shadcn",
-    "url": "https://twitter.com/shadcn"
+    "name": "codevize",
+    "url": "https://twitter.com/codevize"
   },
   "scripts": {
     "dev": "next dev",
