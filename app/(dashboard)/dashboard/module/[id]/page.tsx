@@ -14,11 +14,6 @@ interface ParamsProps {
   params: {
     id: string
   }
-
-  level: string
-  alternatives: string
-  question: string
-  result: string
 }
 
 export default async function DashboardPage({ params }: ParamsProps) {
@@ -54,7 +49,7 @@ export default async function DashboardPage({ params }: ParamsProps) {
       <div>
         <h1 className="mb-8 text-2xl font-bold">Modulos</h1>
         <div className="grid grid-cols-2 gap-4">
-          {levelData.map((item: ParamsProps) => {
+          {levelData.map((item) => {
             return (
               <Link href={`/levels/${params.id}/${item.level}`}>
                 <div
