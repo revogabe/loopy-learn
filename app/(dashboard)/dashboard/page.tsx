@@ -31,7 +31,9 @@ export default async function DashboardPage() {
   const moduleCard = await fetch(
     `https://loopy-levels-default-rtdb.firebaseio.com/modules.json?auth=${authGoogleDB}`,
     {
-      cache: 'no-cache',
+      next: {
+        revalidate: 60 * 60 * 24 * 7,
+      },
     },
   )
     .then((res) => res.json())

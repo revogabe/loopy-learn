@@ -68,7 +68,7 @@ export default async function DashboardPage({ params }: ParamsProps) {
         <div className="grid grid-cols-2 gap-4">
           {levelData.map((item: LevelsProps) => {
             return (
-              <Link href={`/levels/${params.id}/${item.id}`}>
+              <Link href={`/levels/${params.id}/${item.id}/0`}>
                 <div
                   className={`flex cursor-pointer  flex-col items-start gap-5 rounded-md border border-primarycolor bg-bgheader p-6 shadow-xl shadow-black/50 transition-all duration-300 ease-out hover:-translate-y-2 hover:brightness-150`}
                 >
