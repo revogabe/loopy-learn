@@ -1,6 +1,6 @@
-import { authOptions } from '@/lib/auth'
-import { getCurrentUser } from '@/lib/session'
-import { redirect } from 'next/navigation'
+// import { authOptions } from '@/lib/auth'
+// import { getCurrentUser } from '@/lib/session'
+// import { redirect } from 'next/navigation'
 
 interface ParamsProps {
   params: {
@@ -10,25 +10,26 @@ interface ParamsProps {
 }
 
 export default async function LevelPage({ params }: ParamsProps) {
-  const user = await getCurrentUser()
+  // const user = await getCurrentUser()
 
-  if (!user) {
-    redirect(authOptions?.pages?.signIn || '/login')
-  }
+  // if (!user) {
+  //   redirect(authOptions?.pages?.signIn || '/login')
+  // }
 
-  const currentLevel = await fetch(
-    `https://loopy-levels-default-rtdb.firebaseio.com/data/module/${params.id}/levels/${params.slug}.json?auth=${process.env.GOOGLE_API_LEVELS}`,
-  )
-    .then((res) => res.json())
-    .then((data) => {
-      return data
-    })
+  // const currentLevel = await fetch(
+  //   `https://loopy-levels-default-rtdb.firebaseio.com/modules/${params.id}/levels/${params.slug}.json?auth=${process.env.GOOGLE_API_LEVELS}`,
+  // )
+  //   .then((res) => res.json())
+  //   .then((data) => {
+  //     return data
+  //   })
 
-  console.log(currentLevel)
+  // console.log(currentLevel)
 
   return (
     <div className="flex h-screen flex-col items-center justify-center gap-8">
-      <p className="text-4xl font-bold text-primarycolor">
+      <h1>Questions</h1>
+      {/* <p className="text-4xl font-bold text-primarycolor">
         {currentLevel.question}
       </p>
       <div className="grid grid-cols-2 gap-4">
@@ -48,7 +49,7 @@ export default async function LevelPage({ params }: ParamsProps) {
           Result: {currentLevel.result.toUpperCase()}
         </p>
       </div>
-      <p className="text-primarycolor">{currentLevel.level}</p>
+      <p className="text-primarycolor">{currentLevel.level}</p> */}
     </div>
   )
 }
