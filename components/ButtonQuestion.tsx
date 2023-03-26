@@ -1,5 +1,4 @@
 'use client'
-import axios from 'axios'
 import { useRouter } from 'next/navigation'
 
 type QuestionProps = {
@@ -20,17 +19,39 @@ export function ButtonQuestion({ question, answer, module }: QuestionProps) {
   async function updateLevel() {
     const currentLevel = +module.level + 1
 
-    axios.patch(`/api/levels/${module.user}`, {
-      levelProgress: currentLevel,
+    await fetch(`/api/levels/${module.user}`, {
+      cache: 'no-cache',
+      method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        levelProgress: currentLevel,
+      }),
     })
+
+    // axios.patch(`/api/levels/${module.user}`, {
+    //   levelProgress: currentLevel,
+    // })
   }
 
   async function updateModule() {
     const currentModule = +module.id + 1
 
-    axios.patch(`/api/module/${module.user}`, {
-      level: currentModule,
+    await fetch(`/api/module/${module.user}`, {
+      cache: 'no-cache',
+      method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        level: currentModule,
+      }),
     })
+
+    // axios.patch(`/api/module/${module.user}`, {
+    //   level: currentModule,
+    // })
   }
 
   async function handleAnswer() {

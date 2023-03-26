@@ -48,7 +48,7 @@ export default async function DashboardPage({ params }: ParamsProps) {
   const response = await fetch(
     `https://loopy-levels-default-rtdb.firebaseio.com/modules/${params.id}/levels.json?auth=${authGoogleDB}`,
     {
-      cache: 'no-cache',
+      cache: 'default',
     },
   )
   const levelData = await response.json()
