@@ -17,6 +17,8 @@ declare module 'next-auth' {
       id: UserId
       streak: user.streak
       level: user.streak
+      levelProgress: user.levelProgress
+      streakDate: user.streakDate
     }
   }
 }

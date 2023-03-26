@@ -4,8 +4,9 @@ import { authOptions } from '@/lib/auth'
 import { getCurrentUser } from '@/lib/session'
 import { DashboardHeader } from '@/components/header'
 import { DashboardShell } from '@/components/shell'
-import Link from 'next/link'
 import { ButtonApi } from '@/components/ButtonApi'
+import { LevelCard } from '@/components/LevelCard'
+import { LevelCardLocked } from '@/components/LevelCardLocked'
 
 export const metadata = {
   title: 'Dashboard',
@@ -21,6 +22,7 @@ interface LevelsProps {
   id: string
   name: string
   description: string
+  level: string
   leassons: [
     {
       answer: string
@@ -65,22 +67,32 @@ export default async function DashboardPage({ params }: ParamsProps) {
       </div>
       <div>
         <h1 className="mb-8 text-2xl font-bold">Modulos</h1>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="flex w-full flex-col gap-4">
           {levelData.map((item: LevelsProps) => {
-            return (
-              <Link href={`/levels/${params.id}/${item.id}/0`}>
-                <div
-                  className={`flex cursor-pointer  flex-col items-start gap-5 rounded-md border border-primarycolor bg-bgheader p-6 shadow-xl shadow-black/50 transition-all duration-300 ease-out hover:-translate-y-2 hover:brightness-150`}
-                >
-                  <p className="rounded-md border border-primarycolor px-4 py-1 text-lg text-primarycolor">
-                    {item.name}
-                  </p>
-                  <p className="text-lg text-textprimary/75">
-                    {item.description}
-                  </p>
-                </div>
-              </Link>
-            )
+            const userLevel = user.levelProgress
+
+            if (userLevel >= item.level) {
+              return (
+                <LevelCard
+                  key={item.id}
+                  title={item.name}
+                  description={item.description}
+                  levelUrl={
+                    userLevel > item.id
+                      ? `/levels/${params.id}/${item.id}/0`
+                      : `/dashboard/`
+                  }
+                />
+              )
+            } else {
+              return (
+                <LevelCardLocked
+                  key={item.id}
+                  title={item.name}
+                  description={item.description}
+                />
+              )
+            }
           })}
         </div>
       </div>

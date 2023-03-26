@@ -22,7 +22,9 @@ export const authOptions: NextAuthOptions = {
           email: profile.email,
           image: profile.avatar_url,
           streak: profile.streak,
+          streakDate: profile.streakDate,
           level: profile.level,
+          levelProgress: profile.levelProgress,
         }
       },
     }),
@@ -36,6 +38,8 @@ export const authOptions: NextAuthOptions = {
         session.user.image = token.picture
         session.user.level = token.level
         session.user.streak = token.streak
+        session.user.streakDate = token.streakDate as any
+        session.user.levelProgress = token.levelProgress as any
       }
 
       return session
@@ -61,6 +65,8 @@ export const authOptions: NextAuthOptions = {
         picture: dbUser.image,
         level: dbUser.level,
         streak: dbUser.streak,
+        streakDate: dbUser.streakDate,
+        levelProgress: dbUser.levelProgress,
       }
     },
   },

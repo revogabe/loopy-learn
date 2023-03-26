@@ -9,6 +9,7 @@ interface ParamsProps {
     id: string
     slug: string
     level: number
+    update: number
   }
 }
 
@@ -52,6 +53,7 @@ export default async function LevelPage({ params }: ParamsProps) {
                 id: params.id,
                 level: params.slug,
                 question: +params.level + 1,
+                user: user.id,
               }}
             />
           )

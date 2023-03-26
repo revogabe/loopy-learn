@@ -1,732 +1,3439 @@
 {
   "modules": [
     {
-      "id": "0",
-      "name": "HTML INTRODUCTION",
       "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+      "id": "0",
       "levels": [
         {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
           "id": "0",
-          "name": "HTML LEVEL 1",
-          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "level": "1",
           "lessons": [
             {
-              "id": "0", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "1", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "2", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "3", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "4", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             }
-          ]
+          ],
+          "name": "HTML LEVEL 1"
         },
         {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
           "id": "1",
-          "name": "HTML LEVEL 1",
-          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "level": "2",
           "lessons": [
             {
-              "id": "0", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "1", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "2", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "3", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "4", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             }
-          ]
+          ],
+          "name": "HTML LEVEL 1"
         },
         {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
           "id": "2",
-          "name": "HTML LEVEL 1",
-          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "level": "3",
           "lessons": [
             {
-              "id": "0", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "1", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "2", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "3", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "4", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             }
-          ]
+          ],
+          "name": "HTML LEVEL 1"
         },
         {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
           "id": "3",
-          "name": "HTML LEVEL 1",
-          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "level": "4",
           "lessons": [
             {
-              "id": "0", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "1", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "2", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "3", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "4", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             }
-          ]
+          ],
+          "name": "HTML LEVEL 1"
         },
         {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
           "id": "4",
-          "name": "HTML LEVEL 1",
-          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "level": "5",
           "lessons": [
             {
-              "id": "0", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "1", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "2", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "3", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "4", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             }
-          ]
+          ],
+          "name": "HTML LEVEL 1"
         },
         {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
           "id": "5",
-          "name": "HTML LEVEL 1",
-          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "level": "6",
           "lessons": [
             {
-              "id": "0", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "1", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "2", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "3", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "4", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             }
-          ]
+          ],
+          "name": "HTML LEVEL 1"
         },
         {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
           "id": "6",
-          "name": "HTML LEVEL 1",
-          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "level": "7",
           "lessons": [
             {
-              "id": "0", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "1", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "2", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "3", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "4", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             }
-          ]
+          ],
+          "name": "HTML LEVEL 1"
         },
         {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
           "id": "7",
-          "name": "HTML LEVEL 1",
-          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "level": "8",
           "lessons": [
             {
-              "id": "0", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "1", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "2", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "3", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "4", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             }
-          ]
+          ],
+          "name": "HTML LEVEL 1"
         },
         {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
           "id": "8",
-          "name": "HTML LEVEL 1",
-          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "level": "9",
           "lessons": [
             {
-              "id": "0", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "1", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "2", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "3", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "4", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             }
-          ]
+          ],
+          "name": "HTML LEVEL 1"
         },
         {
-          "id": "9",
-          "name": "HTML LEVEL 1",
           "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "9",
+          "level": "10",
           "lessons": [
             {
-              "id": "0", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "1", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "2", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "3", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             },
-             {
-              "id": "4", 
-              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
-
-              "question": "How do you create a button with the text Buy?",
+            {
               "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
               "options": [
                 "<button>Buy<button>",
                 "<button title='buy' />",
                 "<button>Buy<button />",
                 "<button>Buy</button>"
-              ]
+              ],
+              "question": "How do you create a button with the text Buy?"
             }
-          ]
+          ],
+          "name": "HTML LEVEL 1"
         }
-      
-      ]
+      ],
+      "name": "HTML INTRODUCTION"
+    },
+    {
+      "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+      "id": "1",
+      "levels": [
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "0",
+          "level": "11",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "1",
+          "level": "12",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "2",
+          "level": "13",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "3",
+          "level": "14",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "4",
+          "level": "15",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "5",
+          "level": "16",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "6",
+          "level": "17",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "7",
+          "level": "18",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "8",
+          "level": "19",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "9",
+          "level": "20",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        }
+      ],
+      "name": "CSS INTRODUCTION"
+    },
+    {
+      "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+      "id": "2",
+      "levels": [
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "0",
+          "level": "21",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "1",
+          "level": "22",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "2",
+          "level": "23",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "3",
+          "level": "24",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "4",
+          "level": "25",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "5",
+          "level": "26",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "6",
+          "level": "27",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "7",
+          "level": "28",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "8",
+          "level": "29",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "9",
+          "level": "30",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        }
+      ],
+      "name": "HTML + CSS (SEED 1)"
+    },
+    {
+      "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+      "id": "3",
+      "levels": [
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "0",
+          "level": "1",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "1",
+          "level": "2",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "2",
+          "level": "3",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "3",
+          "level": "4",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "4",
+          "level": "5",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "5",
+          "level": "6",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "6",
+          "level": "7",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "7",
+          "level": "8",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "8",
+          "level": "9",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "9",
+          "level": "10",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        }
+      ],
+      "name": "HTML + CSS (SEED 2)"
+    },
+    {
+      "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+      "id": "4",
+      "levels": [
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "0",
+          "level": "31",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "1",
+          "level": "32",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "2",
+          "level": "33",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "3",
+          "level": "34",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "4",
+          "level": "35",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "5",
+          "level": "36",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "6",
+          "level": "37",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "7",
+          "level": "38",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "8",
+          "level": "39",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        },
+        {
+          "description": "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.",
+          "id": "9",
+          "level": "40",
+          "lessons": [
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "0",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "1",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "2",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "3",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            },
+            {
+              "answer": "<button>buy</button>",
+              "description": "The HTML 'button' element is a tag used to render a button on the screen. It is typically used to create interactive user interfaces, allowing users to click or tap on the button to perform an action or trigger an event.",
+              "id": "4",
+              "options": [
+                "<button>Buy<button>",
+                "<button title='buy' />",
+                "<button>Buy<button />",
+                "<button>Buy</button>"
+              ],
+              "question": "How do you create a button with the text Buy?"
+            }
+          ],
+          "name": "HTML LEVEL 1"
+        }
+      ],
+      "name": "COMPLETE INTERFACE (FINAL)"
     }
   ]
 }

@@ -6,7 +6,6 @@ import { withCurrentUser } from '@/lib/api-middlewares/with-current-user'
 import { withMethods } from '@/lib/api-middlewares/with-methods'
 import { authOptions } from '@/lib/auth'
 import { db } from '@/lib/db'
-import { userNameSchema } from '@/lib/validations/user'
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === 'PATCH') {
@@ -20,15 +19,14 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
 
       const body = req.body
 
-      if (body?.name) {
-        const payload = userNameSchema.parse(body)
-
+      if (body) {
         await db.user.update({
           where: {
             id: user.id,
           },
           data: {
-            name: payload.name,
+            name: user.name,
+            levelProgress: +user.levelProgress + 1,
           },
         })
       }
