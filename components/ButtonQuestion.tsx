@@ -25,12 +25,38 @@ export function ButtonQuestion({ question, answer, module }: QuestionProps) {
     console.log(axios)
   }
 
+  async function updateModule() {
+    axios.patch(`/api/module/${module.user}`, {
+      name: '',
+      level: 0,
+    })
+    console.log(axios)
+  }
+
   async function handleAnswer() {
     const result = question.toLowerCase()
     if (result === answer) {
-      if (module.question === 4) {
+      if (module.question === 5) {
         requestApi()
-        await router.push(`/dashboard/module/${module.id}`)
+
+        // se o level for 10 20 30 40 50 60 70 80 90 100 ele vai para o dashboard
+        if (
+          module.level === '9' ||
+          module.level === '19' ||
+          module.level === '29' ||
+          module.level === '39' ||
+          module.level === '49' ||
+          module.level === '59' ||
+          module.level === '69' ||
+          module.level === '79' ||
+          module.level === '89' ||
+          module.level === '99'
+        ) {
+          updateModule()
+          return router.push(`/dashboard`)
+        }
+
+        router.push(`/dashboard/module/${module.id}`)
       } else {
         router.push(`/levels/${module.id}/${module.level}/${module.question}`)
       }
