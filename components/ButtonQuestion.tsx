@@ -8,7 +8,7 @@ type QuestionProps = {
 
   module: {
     id: string
-    level: string
+    level: number
     question: number
     user: string
   }
@@ -17,44 +17,34 @@ type QuestionProps = {
 export function ButtonQuestion({ question, answer, module }: QuestionProps) {
   const router = useRouter()
 
-  async function requestApi() {
-    axios.patch(`/api/users/${module.user}`, {
-      name: '',
-      levelProgress: 0,
+  async function updateLevel() {
+    const currentLevel = +module.level + 1
+
+    axios.patch(`/api/levels/${module.user}`, {
+      levelProgress: currentLevel,
     })
-    console.log(axios)
   }
 
   async function updateModule() {
+    const currentModule = +module.id + 1
+
     axios.patch(`/api/module/${module.user}`, {
-      name: '',
-      level: 0,
+      level: currentModule,
     })
-    console.log(axios)
   }
 
   async function handleAnswer() {
     const result = question.toLowerCase()
     if (result === answer) {
       if (module.question === 5) {
-        requestApi()
-
-        // se o level for 10 20 30 40 50 60 70 80 90 100 ele vai para o dashboard
-        if (
-          module.level === '9' ||
-          module.level === '19' ||
-          module.level === '29' ||
-          module.level === '39' ||
-          module.level === '49' ||
-          module.level === '59' ||
-          module.level === '69' ||
-          module.level === '79' ||
-          module.level === '89' ||
-          module.level === '99'
-        ) {
+        const currentLevel = +module.level + 1
+        if (currentLevel === 10) {
           updateModule()
+          updateLevel()
           return router.push(`/dashboard`)
         }
+
+        updateLevel()
 
         router.push(`/dashboard/module/${module.id}`)
       } else {

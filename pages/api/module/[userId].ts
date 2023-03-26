@@ -25,8 +25,8 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
             id: user.id,
           },
           data: {
-            name: user.name,
-            level: +user.level + 1,
+            level:
+              +body.level + 1 < user.level ? +user.level + 1 : +body.level + 1,
           },
         })
       }

@@ -7,7 +7,7 @@ import { redirect } from 'next/navigation'
 interface ParamsProps {
   params: {
     id: string
-    slug: string
+    slug: number
     level: number
     update: number
   }
@@ -38,35 +38,40 @@ export default async function LevelPage({ params }: ParamsProps) {
   const currentOptions = currentQuestion.options
 
   return (
-    <div className="flex h-screen flex-col items-center justify-center gap-8">
-      <h1>Questions</h1>
-      <p className="text-4xl font-bold text-primarycolor">
-        {currentQuestion.question}
-      </p>
-      <div className="grid grid-cols-2 gap-4">
-        {currentOptions.map((item: string) => {
-          return (
-            <ButtonQuestion
-              question={item}
-              answer={currentQuestion.answer}
-              module={{
-                id: params.id,
-                level: params.slug,
-                question: +params.level + 1,
-                user: user.id,
-              }}
-            />
-          )
-        })}
+    <div className="flex h-screen items-center justify-center gap-8">
+      <div className="flex h-full flex-col gap-4 px-8 py-12">
+        <h1>Questions</h1>
+        <p className="text-4xl font-bold text-primarycolor">
+          {currentQuestion.question}
+        </p>
+        <div className="grid grid-cols-2 gap-4">
+          {currentOptions.map((item: string) => {
+            return (
+              <ButtonQuestion
+                question={item}
+                answer={currentQuestion.answer}
+                module={{
+                  id: params.id,
+                  level: params.slug,
+                  question: +params.level + 1,
+                  user: user.id,
+                }}
+              />
+            )
+          })}
+        </div>
+        <div>
+          <p className="text-primarycolor">Result: {currentQuestion.answer}</p>
+        </div>
+        <Link href="">
+          <button className="rounded-md bg-primarycolor py-2 px-4 text-bgprimary">
+            Submit
+          </button>
+        </Link>
       </div>
-      <div>
-        <p className="text-primarycolor">Result: {currentQuestion.answer}</p>
+      <div className="flex h-full w-full flex-1 flex-col bg-zinc-700">
+        <iframe src="" frameBorder="0"></iframe>
       </div>
-      <Link href="">
-        <button className="rounded-md bg-primarycolor py-2 px-4 text-bgprimary">
-          Submit
-        </button>
-      </Link>
     </div>
   )
 }

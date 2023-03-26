@@ -7,6 +7,7 @@ import { DashboardShell } from '@/components/shell'
 import { ButtonApi } from '@/components/ButtonApi'
 import { LevelCard } from '@/components/LevelCard'
 import { LevelCardLocked } from '@/components/LevelCardLocked'
+import { LevelCardComplete } from '@/components/LevelCardComplete'
 
 export const metadata = {
   title: 'Dashboard',
@@ -72,18 +73,28 @@ export default async function DashboardPage({ params }: ParamsProps) {
             const userLevel = user.levelProgress
 
             if (userLevel >= item.level) {
-              return (
-                <LevelCard
-                  key={item.id}
-                  title={item.name}
-                  description={item.description}
-                  levelUrl={
-                    userLevel > item.id
-                      ? `/levels/${params.id}/${item.id}/0`
-                      : `/dashboard/`
-                  }
-                />
-              )
+              if (userLevel > item.level) {
+                return (
+                  <LevelCardComplete
+                    key={item.id}
+                    title={item.name}
+                    description={item.description}
+                  />
+                )
+              } else {
+                return (
+                  <LevelCard
+                    key={item.id}
+                    title={item.name}
+                    description={item.description}
+                    levelUrl={
+                      userLevel > item.id
+                        ? `/levels/${params.id}/${item.id}/0`
+                        : `/dashboard/`
+                    }
+                  />
+                )
+              }
             } else {
               return (
                 <LevelCardLocked
