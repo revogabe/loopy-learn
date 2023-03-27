@@ -10,14 +10,6 @@ interface ParamsProps {
     level: number
     update: number
   }
-
-  level: {
-    id: string
-    question: string
-    answer: string
-    description: string
-    options: string[]
-  }
 }
 
 export default async function LevelPage({ params }: ParamsProps) {
