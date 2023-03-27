@@ -1,7 +1,6 @@
 import { ButtonQuestion } from '@/components/ButtonQuestion'
 import { authOptions } from '@/lib/auth'
 import { getCurrentUser } from '@/lib/session'
-import Link from 'next/link'
 import { redirect } from 'next/navigation'
 
 interface ParamsProps {
@@ -11,14 +10,15 @@ interface ParamsProps {
     level: number
     update: number
   }
-}
 
-// interface QuestionProps {
-//   id: string
-//   question: string
-//   answer: string
-//   options: string[]
-// }
+  level: {
+    id: string
+    question: string
+    answer: string
+    description: string
+    options: string[]
+  }
+}
 
 export default async function LevelPage({ params }: ParamsProps) {
   const user = await getCurrentUser()
@@ -27,29 +27,68 @@ export default async function LevelPage({ params }: ParamsProps) {
     redirect(authOptions?.pages?.signIn || '/login')
   }
 
-  const currentQuestion = await fetch(
+  const questionData = await fetch(
     `https://loopy-levels-default-rtdb.firebaseio.com/modules/${params.id}/levels/${params.slug}/lessons/${params.level}.json?auth=${process.env.GOOGLE_API_LEVELS}`,
   )
     .then((res) => res.json())
     .then((data) => {
-      return data
+      const returnData = {
+        id: data.id,
+        question: data.question,
+        answer: data.answer,
+        description: data.description,
+        options: data.options,
+      }
+
+      return returnData
     })
 
-  const currentOptions = currentQuestion.options
+  const options = questionData.options
+
+  const code = `<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+      </head>
+      <style>
+  button {
+    border-radius: 12px;
+    background-color: greenyellow;
+  }
+
+  button:hover {
+    transform: scale(1.05);
+    filter: brightness(0.75);
+
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+  }
+</style>
+      <body>
+        ${questionData.answer}
+      </body>
+    </html>`
 
   return (
     <div className="flex h-screen items-center justify-center gap-8">
-      <div className="flex h-full flex-col gap-4 px-8 py-12">
-        <h1>Questions</h1>
-        <p className="text-4xl font-bold text-primarycolor">
-          {currentQuestion.question}
+      <div className="flex h-full max-w-5xl flex-col gap-8 py-16 px-10">
+        <div className="rounded-lg border border-transparent bg-zinc-900/50 py-6 px-8 brightness-90 transition-all duration-200 ease-out hover:border-primarycolor hover:brightness-125">
+          <p className="text-base leading-7 text-zinc-300">
+            {questionData.description}
+          </p>
+        </div>
+        <p className="text-2xl font-bold text-primarycolor">
+          {questionData.question}
         </p>
         <div className="grid grid-cols-2 gap-4">
-          {currentOptions.map((item: string) => {
+          {options.map((item: string) => {
             return (
               <ButtonQuestion
                 question={item}
-                answer={currentQuestion.answer}
+                answer={questionData.answer}
                 module={{
                   id: params.id,
                   level: params.slug,
@@ -60,17 +99,14 @@ export default async function LevelPage({ params }: ParamsProps) {
             )
           })}
         </div>
-        <div>
-          <p className="text-primarycolor">Result: {currentQuestion.answer}</p>
-        </div>
-        <Link href="">
-          <button className="rounded-md bg-primarycolor py-2 px-4 text-bgprimary">
-            Submit
-          </button>
-        </Link>
       </div>
-      <div className="flex h-full w-full flex-1 flex-col bg-zinc-700">
-        <iframe src="" frameBorder="0"></iframe>
+      <div className="flex h-full w-full flex-1 flex-col bg-zinc-900">
+        <div className="flex h-max w-full items-center justify-between gap-4 bg-zinc-800 p-4">
+          <div className="flex w-full items-center justify-start rounded-full bg-zinc-900 px-4 py-3">
+            <p className="text-sm text-textprimary/50">https://loopy.dev</p>
+          </div>
+        </div>
+        <iframe src="" frameBorder="0" srcDoc={code}></iframe>
       </div>
     </div>
   )
